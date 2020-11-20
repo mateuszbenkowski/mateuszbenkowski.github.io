@@ -1,0 +1,79 @@
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #008080;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #008080;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+body {
+     text-align: center;
+     border: 3px white;
+     color: white;
+}
+
+h2 {
+   text-align: left;
+   color: white;
+   text-decoration: underline;
+   text-shadow: 1px 1px 2px #20B2AA, 0 0 25px #20B2AA, 0 0 5px #20B2AA;
+   margin-top: 0.5cm;
+   margin-bottom: 2cm;
+   margin-right: 0.5cm;
+   margin-left: 0.5cm;
+}
+
+h1 {
+   text-align: left;
+   color: white;
+   text-decoration: underline;
+   text-shadow: 1px 1px 2px #20B2AA, 0 0 25px #20B2AA, 0 0 5px #20B2AA;
+   margin-top: 0.5cm;
+   margin-bottom: 0.5cm;
+   margin-right: 0.5cm;
+   margin-left: 0.1cm;
+}
+
+html {
+  background-image: linear-gradient(black, #20B2AA);
+}
+
+p {
+  margin-bottom: 2cm;
+  margin-right: 1cm;
+  margin-left: 1cm;
+}
